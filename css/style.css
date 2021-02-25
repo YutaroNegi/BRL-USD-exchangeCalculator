@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    flex-direction: column;
+}
+
+.inputContainer{
+    background-color: #0ad48b;
+    padding: 80px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+input{
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+}
+
+select{
+    border: none;
+}
+#btn{
+    background-color: white;
+    border: none;
+}
+
+.resultContainer{
+    background-color: #0ad48b;
+    margin-top: 20px;
+    padding: 70px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.flexBox{
+    display: flex;
+    justify-content: center;
+}

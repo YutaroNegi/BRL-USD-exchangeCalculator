@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eschange Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container flexBox">
+        <div class="h1Container">
+            <h1>Exchange Calculator</h1>
+        </div>
+        <div class="inputContainer flexBox">
+            <input id="amount" type="number" placeholder="Amount">
+
+            <select id="select" >
+                <option id="brl" value="brl" onclick="brl()"> BRL</option>
+                <option id="usd" value="usd" onclick="usd()"> USD</option>
+            </select>
+
+            <button id="btn">Convert</button>
+            
+        </div>
+        <div class="resultContainer flexBox">
+            <h2 id="result">0.00$</h2>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
